@@ -8,7 +8,9 @@ Instructions
 
 To add this bookmark, create a new blank bookmark in your browser and name it loadjs or something you'll remember. Grab the bookmark-jsloader.txt file contents and paste it into URL portion of the edit bookmark dialog.
 
-Click the link and input the url js library you want to load. It also comes with shortcuts to a few common libraries that can be accessed just by inputting any of these library names:
+Click the bookmark and input the url js library you want to load into the dialog box. 
+
+bookmark-jsloader also comes with shortcuts to a few common libraries that can be accessed just by inputting any of these library names:
 * backbone
 * gsap
 * jquery
@@ -17,7 +19,9 @@ Click the link and input the url js library you want to load. It also comes with
 * numeric
 * underscore
 
-Fork if you like and add more shortcuts. Just edit the knownLibraries object, minify, and make your own bookmark of the form: 'javascript:(function(){.....}())'
+If you're interested in which versions of the libraries these shortcuts load, look at the knownLibraries object insite bookmark-jsloader.js.
+
+Similarly if you'd like to add add more shortcuts, just edit the knownLibraries object, reminify, and make your own bookmark of the form: 'javascript:(function(){.....}())'
 
 Limitations
 ===========
