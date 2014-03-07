@@ -26,6 +26,8 @@ Similarly if you'd like to add add more shortcuts, just edit the knownLibraries 
 Limitations
 ===========
 
+Libraries are not loaded in noConflict mode, and thus may overwrite existing libraries on the page.
+
 Some sites (facebook, github) have implemented CSP which in should not affect the function of bookmarklets but in actuality, does. On these sites, you will find the bookmarklet will not load scripts.
 
 More information here: <a href="https://github.com/blog/1477-content-security-policy">CSP Information</a>
