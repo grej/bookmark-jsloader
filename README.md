@@ -8,7 +8,7 @@ Instructions
 
 To add this bookmark, create a new blank bookmark in your browser and name it loadjs or something you'll remember. Grab the bookmark-jsloader.txt file contents and paste it into URL portion of the edit bookmark dialog.
 
-Click the bookmark and input the url js library you want to load into the dialog box. 
+Click the bookmark and input the url of the js library you want to load into the dialog box.
 
 bookmark-jsloader also comes with shortcuts to a few common libraries that can be accessed just by inputting any of these library names:
 * backbone
@@ -27,6 +27,8 @@ Limitations
 ===========
 
 Libraries are not loaded in noConflict mode, and thus may overwrite existing libraries on the page.
+
+The input prompt has some simple validation and won't accept bad urls, but if you input valid url that doesn't point to a valid js file, you won't get feedback except through the console.
 
 Some sites (facebook, github) have implemented CSP which in should not affect the function of bookmarklets but in actuality, does. On these sites, you will find the bookmarklet will not load scripts.
 
