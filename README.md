@@ -3,6 +3,8 @@ bookmark-jsloader
 
 A very simple bookmarklet that will quickly load any library onto the current page for you.
 
+![Bookmarklet image](./img/screen.png "bookmark-jsloader image")
+
 Instructions
 ============
 
