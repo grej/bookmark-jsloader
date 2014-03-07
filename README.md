@@ -19,7 +19,7 @@ bookmark-jsloader also comes with shortcuts to a few common libraries that can b
 * numeric
 * underscore
 
-If you're interested in which versions of the libraries these shortcuts load, look at the knownLibraries object insite bookmark-jsloader.js.
+If you're interested in which versions of the libraries these shortcuts load, look at the knownLibraries object inside bookmark-jsloader.js.
 
 Similarly if you'd like to add add more shortcuts, just edit the knownLibraries object, reminify, and make your own bookmark of the form: 'javascript:(function(){.....}())'
 
